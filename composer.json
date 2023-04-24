@@ -1,0 +1,19 @@
+{
+    "description": "",
+    "type": "neos-package",
+    "name": "vendor/packagewithseeder",
+    "require": {
+        "neos/flow": "*",
+        "websupply/seeder": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vendor\\PackageWithSeeder\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Vendor.PackageWithSeeder"
+        }
+    }
+}
